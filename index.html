@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NJIT Gender Neutral Bathrooms</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="bathrooms.js"></script>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            height: 100vh;
+        }
+        #map {
+            height: 100vh;
+            flex-grow: 1;
+        }
+        aside {
+            background-color: white;
+            width: 20em;
+            padding: 1em;
+            font-family: "Roboto", sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            box-sizing: border-box;
+        }
+        main {
+            flex-grow: 1;
+            overflow-y: auto;
+        }
+        main img {
+            width: 100%;
+            margin-top: 0.5em;
+        }
+        main > a {
+            display: block;
+            margin: 0.5em 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        h3 {
+            margin-top: 0.3em;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin: 0;
+            padding: 0;
+        }
+        li:not(:last-child) a {
+            border-bottom: solid black 1px;
+        }
+        li a {
+            display: block;
+            padding: 0.5em;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #eeeeee;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <aside>
+        <header>
+            <h1>NJIT Gender Neutral Bathrooms</h1>
+            <hr>
+        </header>
+        <main></main>
+        <footer>
+            <hr>
+            With ❤️ by matt reya <small>(they/them) 🏳️‍🌈🏳️‍⚧️</small>
+            <br>
+            <a href="https://github.com/matt-reya/njit-genderneutral" target="_blank">View the source code</a>
+        </footer>
+    </aside>
+    <script>
+        const map = L.map("map");
+        const mainE = document.querySelector("main");
+
+        L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        let currentBR;
+
+        for (const id in bathrooms) {
+            const br = bathrooms[id];
+            if (location.hash === "#" + id) currentBR = br;
+            br.marker = L.marker([br.lat, br.lon], {
+                title: br.name
+            })
+                .addTo(map)
+                .bindPopup(br.name)
+                .on("popupopen", () => {
+                    location.hash = id;
+                })
+                .on("popupclose", () => {
+                    if (location.hash === "#" + id) location.hash = "";
+                });
+        }
+
+        function render() {
+            let id = location.hash.slice(1);
+            if (currentBR !== bathrooms[id] && currentBR?.marker.isPopupOpen()) currentBR.marker.closePopup();
+            currentBR = bathrooms[id];
+            if (currentBR) {
+                map.setView([currentBR.lat, currentBR.lon], 18);
+                if (!currentBR.marker.isPopupOpen()) currentBR.marker.openPopup();
+                mainE.innerHTML = `
+                    <h3>${currentBR.name}</h3>
+                    <small>${currentBR.description.replaceAll("\n", "<br>")}</small><br>
+                    ${Array.from({length: currentBR.img}, (_, i) => `<img src="img/${id}${i + 1}.jpg" alt="${currentBR.name}, Bathroom ${i + 1}">`).join("<br>")}
+                    <a href="#">Back to bathroom list</a>
+                `;
+            } else {
+                map.setView([40.74250604766099, -74.17952656745912], 17);
+                mainE.innerHTML = `
+                    <ul>
+                        ${Object.entries(bathrooms).map(([id, br]) => `
+                            <li>
+                                <a href="#${id}">${br.name}</a>
+                            </li>
+                        `).join("")}
+                    </ul>
+                `;
+            }
+        }
+
+        addEventListener("hashchange", render);
+        render();
+    </script>
+</body>
+</html>
