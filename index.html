@@ -130,6 +130,7 @@
         }
 
         function render() {
+            mainE.scrollTop = 0;
             let id = location.hash.slice(1);
             if (currentBR !== bathrooms[id] && currentBR?.marker.isPopupOpen()) currentBR.marker.closePopup();
             currentBR = bathrooms[id];
