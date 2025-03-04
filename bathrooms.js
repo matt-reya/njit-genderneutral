@@ -22,7 +22,7 @@ window.bathrooms = {
     "colt2a": {
         lat: 40.741323,
         lon: -74.177561,
-        name: "Colton Hall Annex, Second Floor",
+        name: "Colton Hall, Annex, Second Floor",
         description: `One bathroom, located on the second floor of the Colton Hall (COLT) annex.
         
         The easiest way to get to this bathroom is via Weston Hall. Enter Weston Hall from the entrance closest to the Specht Building (where the bookstore is), head toward the hallway on the left, then make your first left into the area with the sign saying "NOW ENTERING COLTON" at the top:
@@ -33,7 +33,7 @@ window.bathrooms = {
     "colt3a": {
         lat: 40.741323,
         lon: -74.177561,
-        name: "Colton Hall Annex, Third Floor",
+        name: "Colton Hall, Annex, Third Floor",
         description: `One bathroom, located on the third floor of the Colton Hall (COLT) annex.
         
         The easiest way to get to this bathroom is via Weston Hall. Enter Weston Hall from the entrance closest to the Specht Building (where the bookstore is), and head up the elevator or stairs to the fourth floor of Weston Hall. Along the hallway is a room with a short staircase in it:
@@ -44,7 +44,7 @@ window.bathrooms = {
     "camp5a": {
         lat: 40.741580,
         lon: -74.177506,
-        name: "Campbell Hall Annex, Fifth Floor",
+        name: "Campbell Hall, Annex, Fifth Floor",
         description: `One bathroom, located in the Campbell Hall (CAMP) annex. This bathroom has been recorded as being on the fifth floor, due to it being right next to the CAMP 524 studio, but it's slightly unclear what floor it technically is on.
         
         This bathroom, while signed as an "All Gender Single User Restroom", is very clearly <em>not</em> a single user restroom, as it has stalls and even urinals. It is most likely a repurposed men's bathroom.
@@ -160,6 +160,80 @@ window.bathrooms = {
         Once you enter the WEC from the entrance closest to Tiernan Hall, head up the stairs and then left towards the indoor track. You may need to tap your ID to get into the track, but once you do head straight along the track until you get to the enclave with the sign above it featuring a symbol of a woman. It should be just before the elevators. Head right into the enclave, then the family restroom should be on your right, just past the women's bathroom itself.`,
         img: 1
     },
+    "cyp1a": {
+        lat: 40.743562,
+        lon: -74.179114,
+        name: "Cypress Residence Hall, First Floor",
+        description: `One bathroom, located on the first floor of the Cypress Residence Hall (CYP). You need to be a resident of Cypress Hall (or a guest of one) to get to this bathroom.
+        
+        This bathroom isn't labeled "All Gender Single User Restroom" like the others, but it is single user and isn't intended for one specific gender. The sign on the door simply says "RESTROOM" and has symbols for both a woman and a man on it.
+        
+        Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and straight across the hall towards the laundry room enclave. The bathroom should be straight to your left, next to the women's bathroom.`,
+        img: 1
+    },
+    "cyp2a": {
+        lat: 40.743394,
+        lon: -74.179291,
+        name: "Cypress Residence Hall, Second Floor",
+        description: `One bathroom, located on the second floor of the Cypress Residence Hall (CYP). You need to be a resident of Cypress Hall (or a guest of one) to get to this bathroom.
+        
+        Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the second floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
+        img: 1
+    },
+    "cyp3a": {
+        lat: 40.743394,
+        lon: -74.179291,
+        name: "Cypress Residence Hall, Third Floor",
+        description: `One bathroom, located on the third floor of the Cypress Residence Hall (CYP). You need to be a resident of Cypress Hall (or a guest of one) to get to this bathroom.
+        
+        Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the third floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
+        img: 1
+    },
+    "cyp4a": {
+        lat: 40.743394,
+        lon: -74.179291,
+        name: "Cypress Residence Hall, Fourth Floor",
+        description: `One bathroom, located on the fourth floor of the Cypress Residence Hall (CYP). You need to be a resident of Cypress Hall (or a guest of one) to get to this bathroom.
+        
+        Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the fourth floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
+        img: 1
+    },
+    "cyp5a": {
+        lat: 40.743394,
+        lon: -74.179291,
+        name: "Cypress Residence Hall, Fifth Floor",
+        description: `One bathroom, located on the fifth floor of the Cypress Residence Hall (CYP). You need to be a resident of Cypress Hall (or a guest of one) to get to this bathroom.
+        
+        Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the fifth floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
+        img: 1
+    },
+    "cyp6a": {
+        lat: 40.743394,
+        lon: -74.179291,
+        name: "Cypress Residence Hall, Sixth Floor",
+        description: `One bathroom, located on the sixth floor of the Cypress Residence Hall (CYP). You need to be a resident of Cypress Hall (or a guest of one) to get to this bathroom.
+        
+        Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the sixth floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
+        img: 1
+    },
+    "cyp7a": {
+        lat: 40.743394,
+        lon: -74.179291,
+        name: "Cypress Residence Hall, Seventh Floor",
+        description: `One bathroom, located on the seventh floor of the Cypress Residence Hall (CYP). You need to be a resident of Cypress Hall (or a guest of one) to get to this bathroom.
+        
+        Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the seventh floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
+        img: 1
+    },
+    "cyp8a": {
+        lat: 40.743394,
+        lon: -74.179291,
+        name: "Cypress Residence Hall, Eighth Floor",
+        description: `One bathroom, located on the eighth floor of the Cypress Residence Hall (CYP). You need to be a resident of Cypress Hall (or a guest of one) to get to this bathroom.
+        
+        Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the eighth floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
+        img: 1
+    },
     "gitc2a": {
         lat: 40.743994,
         lon: -74.179039,
@@ -167,6 +241,15 @@ window.bathrooms = {
         description: `Two bathrooms, located on the second floor of the Makerspace II building within the Guttenberg Information Technologies Center (GITC). In order to get to these bathrooms, you need to have access to the Makerspace, which can be obtained by completing the <a href="https://www.njitmakerspace.com/make-101-introduction-makerspace" target="_blank">MAKE 101 makerspace training</a>.
 
         Once you enter the Makerspace II building from the entrance closest to the main GITC entrance, tap your physical ID card (you need the physical card, you cannot use the Symmetry app on your phone here) to get past the gate, and then head left towards the rooms with the glass windows. Make another left, go up the stairs to the mezzanine (where the 3D printers are), then go across the mezzanine towards the stairs in the back. Take those stairs up to the second floor, then walk down the short hallway. The bathrooms will be on your right.`,
+        img: 2
+    },
+    "red1a": {
+        lat: 40.743540,
+        lon: -74.179815,
+        name: "Redwood Residence Hall, First Floor",
+        description: `Two bathrooms, located on the first floor of the Redwood Residence Hall (RED). You need to be a resident of Redwood Hall (or a guest of one) to get to this bathroom.
+
+        Once you enter Redwood Hall from the entrance closest to Cypress Hall, head past the front desk and across the lobby towards the kitchen lounge. The bathrooms should be straight ahead.`,
         img: 2
     },
     "mapl1a": {
