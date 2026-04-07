@@ -45,6 +45,13 @@
         h3 {
             margin-top: 0.3em;
         }
+        h3:has(+ h4) {
+            margin-bottom: 0;
+        }
+        h4 {
+            margin-top: 0.3em;
+            font-size: 0.9em
+        }
         ul {
             list-style: none;
             padding: 0;
@@ -98,9 +105,11 @@
         <main></main>
         <footer>
             <hr>
-            With ❤️ by matt reya <small>(they/them) 🏳️‍🌈🏳️‍⚧️</small>
+            ❤️ by matt reya <small>(they/them) 🏳️‍🌈🏳️‍⚧️</small>
             <br>
             <a href="https://github.com/matt-reya/njit-genderneutral" target="_blank">View the source code</a>
+            <br>
+            <small>Last updated 04/07/2026</small>
         </footer>
     </aside>
     <script>
@@ -139,6 +148,7 @@
                 if (!currentBR.marker.isPopupOpen()) currentBR.marker.openPopup();
                 mainE.innerHTML = `
                     <h3>${currentBR.name}</h3>
+                    ${currentBR.code ? `<h4>${currentBR.code}</h4>` : ""}
                     <small>${currentBR.description.replaceAll("\n", "<br>")}</small><br>
                     ${Array.from({length: currentBR.img}, (_, i) => `<img src="img/${id}${i + 1}.jpg" alt="${currentBR.name}, Bathroom ${i + 1}">`).join("<br>")}
                     <a href="#">Back to bathroom list</a>
