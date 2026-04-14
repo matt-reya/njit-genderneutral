@@ -49,8 +49,18 @@
             margin-bottom: 0;
         }
         h4 {
+            font-size: 0.9em;
             margin-top: 0.3em;
-            font-size: 0.9em
+            margin-bottom: 0.5em;
+        }
+        #top-info h4 {
+            margin: 0;
+        }
+        #top-info h4:first-child {
+            margin-top: 0;
+        }
+        #top-info h4:last-child {
+            margin-bottom: 1em;
         }
         ul {
             list-style: none;
@@ -71,6 +81,11 @@
         }
         li a:hover {
             background-color: #eeeeee;
+        }
+
+        .icon {
+            height: 0.75em;
+            width: auto;
         }
 
         @media (max-width: calc(50em - 1px)) {
@@ -107,9 +122,9 @@
             <hr>
             ❤️ by matt reya <small>(they/them) 🏳️‍🌈🏳️‍⚧️</small>
             <br>
-            <a href="https://github.com/matt-reya/njit-genderneutral" target="_blank">View the source code</a>
+            <a href="https://github.com/matt-reya/njit-genderneutral" target="_blank">View source code (+ credits)</a>
             <br>
-            <small>Last updated 04/07/2026</small>
+            <small>Last updated 04/14/2026</small>
         </footer>
     </aside>
     <script>
@@ -149,7 +164,13 @@
                 mainE.innerHTML = `
                     <h3>${currentBR.name}</h3>
                     ${currentBR.code ? `<h4>${currentBR.code}</h4>` : ""}
-                    <small>${currentBR.description.replaceAll("\n", "<br>")}</small><br>
+                    <div id="top-info">
+                        ${currentBR.handicap ? `<h4><img src="img/icon/handicap.png" alt="Handicap accessible" class="icon" /> Handicap accessible${typeof currentBR.handicap === 'string' ? ` (${currentBR.handicap})` : ""}</h4>` : ""}
+                        ${currentBR.menstrual ? `<h4><img src="img/icon/pad.png" alt="Has menstrual products" class="icon" /> Has menstrual products${typeof currentBR.menstrual === 'string' ? ` (${currentBR.menstrual})</h4>` : ""}` : ""}
+                    </div>
+                    <small>
+                        ${currentBR.description.replaceAll("\n", "<br>")}
+                    </small><br>
                     ${Array.from({length: currentBR.img}, (_, i) => `<img src="img/${id}${i + 1}.jpg" alt="${currentBR.name}, Bathroom ${i + 1}">`).join("<br>")}
                     <a href="#">Back to bathroom list</a>
                 `;
@@ -159,7 +180,11 @@
                     <ul>
                         ${Object.entries(bathrooms).map(([id, br]) => `
                             <li>
-                                <a href="#${id}">${br.name}</a>
+                                <a href="#${id}">
+                                    ${br.handicap ? '<img src="img/icon/handicap.png" alt="Handicap accessible" class="icon" />' : ""}
+                                    ${br.menstrual ? '<img src="img/icon/pad.png" alt="Has menstrual products" class="icon" />' : ""}
+                                    ${br.name}
+                                </a>
                             </li>
                         `).join("")}
                     </ul>

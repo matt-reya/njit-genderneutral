@@ -6,7 +6,9 @@ window.bathrooms = {
         description: `Two bathrooms, located on the third floor of the Life Sciences and Engineering Center (LSEC).
         
         Once you enter the LSEC from the entrance closest to Summit Street, veer back right to the elevator/stairs, then head up to the third floor. The bathrooms are right by the elevator on the third floor.`,
-        img: 2
+        img: 2,
+        handicap: true,
+        menstrual: "left bathroom only"
     },
     "colt1a": {
         lat: 40.741411,
@@ -17,7 +19,9 @@ window.bathrooms = {
         This bathroom isn't labeled "All Gender Single User Restroom" like the others, but it is single user and isn't intended for one specific gender. The sign on the door simply says "RESTROOM" and has symbols for both a woman and a man on it.
         
         Once you enter Colton Hall from the side closest to the Specht Building (where the bookstore is), head right down the stairs and then left down the little hallway until you get to the door at the end. The bathroom should be directly to your left at the end of the hallway.`,
-        img: 1
+        img: 1,
+        handicap: true,
+        menstrual: false
     },
     "colt2a": {
         lat: 40.741323,
@@ -28,7 +32,9 @@ window.bathrooms = {
         The easiest way to get to this bathroom is via Weston Hall. Enter Weston Hall from the entrance closest to the Specht Building (where the bookstore is), head toward the hallway on the left, then make your first left into the area with the sign saying "NOW ENTERING COLTON" at the top:
         <img src="img/colt2ainst1.jpg" alt="Entrance to the second floor Colton Hall annex from Weston Hall.">
         Continue into Colton Hall and head towards the vending machine. The bathroom should be on the right. `,
-        img: 1
+        img: 1,
+        handicap: true,
+        menstrual: false
     },
     "colt3a": {
         lat: 40.741323,
@@ -39,7 +45,9 @@ window.bathrooms = {
         The easiest way to get to these bathrooms is via Weston Hall. Enter Weston Hall from the entrance closest to the Specht Building (where the bookstore is), and head up the elevator or stairs to the fourth floor of Weston Hall. Along the hallway is a room with a short staircase in it:
         <img src="img/colt3ainst1.jpg" alt="Entrance to the third floor Colton Hall annex from Weston Hall.">
         Head into that room, up the staircase, and through the door into Colton Hall. Then head around the corner and straight towards the exit staircase. The bathrooms should be on your right.`,
-        img: 2
+        img: 2,
+        handicap: true,
+        menstrual: false
     },
     "colt4a": {
         lat: 40.741323,
@@ -48,7 +56,9 @@ window.bathrooms = {
         description: `One bathroom, located on the fourth floor of the Colton Hall (COLT) annex.
         
         Once you enter Colton Hall from the entrance closest to the Specht building (where the bookstore is), take the stairs up to the fourth floor, and make a right. Head down the hallway (around the corners) until you reach the end, at which the bathroom should be on your right.`,
-        img: 1
+        img: 1,
+        handicap: true,
+        menstrual: false
     },
     "eber0a": {
         lat: 40.742795,
@@ -59,7 +69,9 @@ window.bathrooms = {
         This bathroom isn't labeled "All Gender Single User Restroom" like the others, but it is single user and isn't intended for one specific gender. The sign next to the door simply says "Toilet" and has symbols for both a woman and a man on it.
         
         Once you enter Eberhardt Hall from the entrance closest to Cullimore Hall (you may need to tap your ID to do so), either take the elevator on the left down to the basement (floor B) or head up to floor 1, go down the left hallway, and take the stairs at the end down to the basement. Head down the basement hallway and the bathroom should be on your right.`,
-        img: 1
+        img: 1,
+        handicap: true,
+        menstrual: false
     },
     "ctr3a": {
         lat: 40.742999,
@@ -69,7 +81,9 @@ window.bathrooms = {
         
         Once you enter the Campus Center from the entrance closest to Fenster Hall, head left and take the stairs or elevators up to floor 3. Then head down the hallway towards the Highlander Pub. The bathroom should be on the left, just after the two gendered bathrooms.`,
         img: 1,
-        code: "CTR 370A"
+        code: "CTR 370A",
+        handicap: true,
+        menstrual: true
     },
     "fmh1a": {
         lat: 40.742047,
@@ -79,7 +93,9 @@ window.bathrooms = {
         
         Once you enter Faculty Memorial Hall from the entrance closest to Kupfrian Hall, continue into the first floor and the bathroom should be right to your right.`,
         img: 1,
-        code: "FMH 199A"
+        code: "FMH 199A",
+        handicap: true,
+        menstrual: true
     },
     "fmh1b": {
         lat: 40.741895,
@@ -89,7 +105,9 @@ window.bathrooms = {
         
         Once you enter Faculty Memorial Hall from the entrance closest to Kupfrian Hall, continue into the first floor and head straight down the hallway. The bathroom should be to your right by the elevator just before you get to the corner.`,
         img: 1,
-        code: "FMH 199D"
+        code: "FMH 199D",
+        handicap: true,
+        menstrual: true
     },
     "fmh2a": {
         lat: 40.742047,
@@ -99,7 +117,9 @@ window.bathrooms = {
         
         Once you enter Faculty Memorial Hall from the entrance closest to Kupfrian Hall, head up the stairs to the second floor and the bathroom should be right to your right.`,
         img: 1,
-        code: "FMH 299A"
+        code: "FMH 299A",
+        handicap: true,
+        menstrual: false
     },
     "fmh3a": {
         lat: 40.742047,
@@ -109,7 +129,9 @@ window.bathrooms = {
         
         Once you enter Faculty Memorial Hall from the entrance closest to Kupfrian Hall, head up the stairs to the third floor and the bathroom should be right to your right.`,
         img: 1,
-        code: "FMH 399A"
+        code: "FMH 399A",
+        handicap: true,
+        menstrual: true
     },
     "fmh4a": {
         lat: 40.742047,
@@ -121,7 +143,9 @@ window.bathrooms = {
         
         Once you enter Faculty Memorial Hall from the entrance closest to Kupfrian Hall, head up the stairs to the fourth floor and the bathroom should be right to your right.`,
         img: 1,
-        code: "FMH 499A"
+        code: "FMH 499A",
+        handicap: true,
+        menstrual: false
     },
     "mhrh1a": {
         lat: 40.741351,
@@ -131,7 +155,9 @@ window.bathrooms = {
         
         Once you enter the honors dorm from the entrance closest to Warren Street, head to the back of the lobby and make a left towards the student kitchen. Walk towards the kitchen and the bathroom should be on your left.`,
         img: 1,
-        code: "MHRH 107"
+        code: "MHRH 107",
+        handicap: true,
+        menstrual: false
     },
     "tier1a": {
         lat: 40.741916,
@@ -141,7 +167,9 @@ window.bathrooms = {
         
         Once you enter Tiernan Hall from the entrance closest to Kupfrian Hall, head right past the lecture hall and turn the corner at the end. The bathroom should be straight ahead at the end of the hallway (before turning the corner again).`,
         img: 1,
-        code: "TIER 199A"
+        code: "TIER 199A",
+        handicap: true,
+        menstrual: true
     },
     "tier3a": {
         lat: 40.742255,
@@ -151,7 +179,25 @@ window.bathrooms = {
         
         Once you enter Tiernan Hall from the entrance closest to Kupfrian Hall, head right towards the lecture hall and either take the elevator or the stairs at the corner of the hallway up to the third floor. The bathroom should be right next to the front elevator on the third floor.`,
         img: 1,
-        code: "TIER 399B"
+        code: "TIER 399B",
+        handicap: true,
+        menstrual: true
+    },
+    "wec1a": {
+        lat: 40.742406,
+        lon: -74.180270,
+        name: "Wellness and Events Center, Family Locker Room (First Floor)",
+        description: `One locker room, with a bathroom and changing area, located near the entrance to the pool and stadium on the first floor of the Wellness and Events Center (WEC).
+        
+        This bathroom isn't labeled "All Gender Single User Restroom" like the others, but this is a multifunctional and non-gendered family locker room with a single bathroom stall.
+        
+        Once you enter the WEC from the entrance closest to Tiernan Hall, head straight past the fencing room towards the elevator, and turn left at the wall with the television.
+        <img src="img/wec1ainst1.jpg" alt="Entrance to the locker room area on the first floor of the Wellness and Events Center.">
+        You may need to tap your ID to get through the doors, but once you do, head straight towards the arena entrance and the family locker room should be on your left.`,
+        img: 1,
+        code: "WEC 1B8.11",
+        handicap: true,
+        menstrual: false
     },
     "wec2a": {
         lat: 40.742128,
@@ -163,7 +209,9 @@ window.bathrooms = {
         
         Once you enter the WEC from the entrance closest to Tiernan Hall, head up the stairs and then left towards the indoor track. You may need to tap your ID to get into the track, but once you do head straight along the track until you get to the enclave with the sign above it featuring a symbol of a woman. It should be just before the elevators. Head right into the enclave, then the family restroom should be on your right, just past the women's bathroom itself.`,
         img: 1,
-        code: "WEC 2A7.01"
+        code: "WEC 2A7.01",
+        handicap: true,
+        menstrual: false
     },
     "cyp1a": {
         lat: 40.743562,
@@ -175,7 +223,9 @@ window.bathrooms = {
         
         Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and straight across the hall towards the laundry room enclave. The bathroom should be straight to your left, next to the women's bathroom.`,
         img: 1,
-        code: "CYP 113"
+        code: "CYP 113",
+        handicap: true,
+        menstrual: false
     },
     "cyp2a": {
         lat: 40.743394,
@@ -185,7 +235,9 @@ window.bathrooms = {
         
         Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the second floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
         img: 1,
-        code: "CYP 224"
+        code: "CYP 224",
+        handicap: true,
+        menstrual: false
     },
     "cyp3a": {
         lat: 40.743394,
@@ -195,7 +247,9 @@ window.bathrooms = {
         
         Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the third floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
         img: 1,
-        code: "CYP 324"
+        code: "CYP 324",
+        handicap: true,
+        menstrual: false
     },
     "cyp4a": {
         lat: 40.743394,
@@ -205,7 +259,9 @@ window.bathrooms = {
         
         Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the fourth floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
         img: 1,
-        code: "CYP 424"
+        code: "CYP 424",
+        handicap: true,
+        menstrual: false
     },
     "cyp5a": {
         lat: 40.743394,
@@ -215,7 +271,9 @@ window.bathrooms = {
         
         Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the fifth floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
         img: 1,
-        code: "CYP 524"
+        code: "CYP 524",
+        handicap: true,
+        menstrual: false
     },
     "cyp6a": {
         lat: 40.743394,
@@ -225,7 +283,9 @@ window.bathrooms = {
         
         Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the sixth floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
         img: 1,
-        code: "CYP 624"
+        code: "CYP 624",
+        handicap: true,
+        menstrual: false
     },
     "cyp7a": {
         lat: 40.743394,
@@ -235,7 +295,9 @@ window.bathrooms = {
         
         Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the seventh floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
         img: 1,
-        code: "CYP 724"
+        code: "CYP 724",
+        handicap: true,
+        menstrual: false,
     },
     "cyp8a": {
         lat: 40.743394,
@@ -245,16 +307,20 @@ window.bathrooms = {
         
         Once you enter Cypress Hall from the entrance closest to Redwood Hall, head past the front desk and take the elevator up to the eighth floor. Make a left out of the elevator and make a right at the corner of the hallway. The bathroom should be on your right.`,
         img: 1,
-        code: "CYP 824"
+        code: "CYP 824",
+        handicap: true,
+        menstrual: false
     },
     "gitc2a": {
         lat: 40.743994,
         lon: -74.179039,
         name: "Guttenberg Information Technologies Center, Makerspace II, Second Floor",
-        description: `Two bathrooms, located on the second floor of the Makerspace II building within the Guttenberg Information Technologies Center (GITC). In order to get to these bathrooms, you need to have access to the Makerspace, which can be obtained by completing the <a href="https://www.njitmakerspace.com/make-101-introduction-makerspace" target="_blank">MAKE 101 makerspace training</a>.
+        description: `Two bathrooms, located on the second floor of the Makerspace II building within the Guttenberg Information Technologies Center (GITC). In order to get to these bathrooms, you need to have access to the Makerspace, which can be obtained by completing the <a href="https://www.njitmakerspace.com/training-courses-njit-community" target="_blank">MAKE 101 makerspace training</a>.
 
         Once you enter the Makerspace II building from the entrance closest to the main GITC entrance, tap your ID to get past the gate, and then head left towards the rooms with the glass windows. Make another left, go up the stairs to the mezzanine (where the 3D printers are), then go across the mezzanine towards the stairs in the back. Take those stairs up to the second floor, then walk down the short hallway. The bathrooms will be on your right.`,
-        img: 2
+        img: 2,
+        handicap: true,
+        menstrual: false
     },
     "red1a": {
         lat: 40.743540,
@@ -264,7 +330,9 @@ window.bathrooms = {
 
         Once you enter Redwood Hall from the entrance closest to Cypress Hall, head past the front desk and across the lobby towards the kitchen lounge. The bathrooms should be straight ahead.`,
         img: 2,
-        code: "RED 199A, RED 199B"
+        code: "RED 199A, RED 199B",
+        handicap: true,
+        menstrual: false
     },
     "mapl1a": {
         lat: 40.741575,
@@ -274,6 +342,8 @@ window.bathrooms = {
         
         Once you enter Maple Hall from the entrance closest to Warren Street, head around the front desk and walk straight down the hallway in the back past the study rooms towards the club room. The bathroom will be on your right.`,
         img: 1,
-        code: "MAPL 115"
+        code: "MAPL 115",
+        handicap: true,
+        menstrual: false
     }
 }
