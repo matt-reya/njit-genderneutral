@@ -319,6 +319,7 @@ window.bathrooms = {
 
         Once you enter the Makerspace II building from the entrance closest to the main GITC entrance, tap your ID to get past the gate, and then head left towards the rooms with the glass windows. Make another left, go up the stairs to the mezzanine (where the 3D printers are), then go across the mezzanine towards the stairs in the back. Take those stairs up to the second floor, then walk down the short hallway. The bathrooms will be on your right.`,
         img: 2,
+        code: "GITC 2215, GITC 2216",
         handicap: true,
         menstrual: false
     },
