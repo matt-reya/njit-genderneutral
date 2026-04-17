@@ -33,6 +33,7 @@ window.bathrooms = {
         <img src="img/colt2ainst1.jpg" alt="Entrance to the second floor Colton Hall annex from Weston Hall.">
         Continue into Colton Hall and head towards the vending machine. The bathroom should be on the right. `,
         img: 1,
+        code: "COLT 280",
         handicap: true,
         menstrual: false
     },
@@ -46,6 +47,7 @@ window.bathrooms = {
         <img src="img/colt3ainst1.jpg" alt="Entrance to the third floor Colton Hall annex from Weston Hall.">
         Head into that room, up the staircase, and through the door into Colton Hall. Then head around the corner and straight towards the exit staircase. The bathrooms should be on your right.`,
         img: 2,
+        code: "COLT 338, COLT 339",
         handicap: true,
         menstrual: false
     },
@@ -57,6 +59,7 @@ window.bathrooms = {
         
         Once you enter Colton Hall from the entrance closest to the Specht building (where the bookstore is), take the stairs up to the fourth floor, and make a right. Head down the hallway (around the corners) until you reach the end, at which the bathroom should be on your right.`,
         img: 1,
+        code: "COLT 438",
         handicap: true,
         menstrual: false
     },
