@@ -1,5 +1,5 @@
 window.bathrooms = {
-    "lsec3a": {
+    "lsec3xx": {
         lat: 40.740632,
         lon: -74.178454,
         name: "Life Sciences and Engineering Center, Third Floor",
@@ -10,7 +10,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: "left bathroom only"
     },
-    "colt1a": {
+    "colt1xx": {
         lat: 40.741411,
         lon: -74.178005,
         name: "Colton Hall, First Floor",
@@ -23,35 +23,35 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "colt2a": {
+    "colt280": {
         lat: 40.741323,
         lon: -74.177561,
         name: "Colton Hall, Annex, Second Floor",
         description: `One bathroom, located on the second floor of the Colton Hall (COLT) annex.
         
         The easiest way to get to this bathroom is via Weston Hall. Enter Weston Hall from the entrance closest to the Specht Building (where the bookstore is), head toward the hallway on the left, then make your first left into the area with the sign saying "NOW ENTERING COLTON" at the top:
-        <img src="img/colt2ainst1.jpg" alt="Entrance to the second floor Colton Hall annex from Weston Hall.">
+        <img src="img/colt280inst1.jpg" alt="Entrance to the second floor Colton Hall annex from Weston Hall.">
         Continue into Colton Hall and head towards the vending machine. The bathroom should be on the right. `,
         img: 1,
         code: "COLT 280",
         handicap: true,
         menstrual: false
     },
-    "colt3a": {
+    "colt338-339": {
         lat: 40.741323,
         lon: -74.177561,
         name: "Colton Hall, Annex, Third Floor",
         description: `Two bathrooms, located on the third floor of the Colton Hall (COLT) annex.
         
         The easiest way to get to these bathrooms is via Weston Hall. Enter Weston Hall from the entrance closest to the Specht Building (where the bookstore is), and head up the elevator or stairs to the fourth floor of Weston Hall. Along the hallway is a room with a short staircase in it:
-        <img src="img/colt3ainst1.jpg" alt="Entrance to the third floor Colton Hall annex from Weston Hall.">
+        <img src="img/colt338-339inst1.jpg" alt="Entrance to the third floor Colton Hall annex from Weston Hall.">
         Head into that room, up the staircase, and through the door into Colton Hall. Then head around the corner and straight towards the exit staircase. The bathrooms should be on your right.`,
         img: 2,
         code: "COLT 338, COLT 339",
         handicap: true,
         menstrual: false
     },
-    "colt4a": {
+    "colt438": {
         lat: 40.741323,
         lon: -74.177561,
         name: "Colton Hall, Annex, Fourth Floor",
@@ -63,7 +63,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "eber0a": {
+    "eber0xx": {
         lat: 40.742795,
         lon: -74.177087,
         name: "Eberhardt Hall, Basement",
@@ -76,7 +76,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "ctr3a": {
+    "ctr370A": {
         lat: 40.742999,
         lon: -74.177905,
         name: "Campus Center, Third Floor",
@@ -88,7 +88,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: true
     },
-    "fmh1a": {
+    "fmh199A": {
         lat: 40.742047,
         lon: -74.179019,
         name: "Faculty Memorial Hall, First Floor, Front",
@@ -100,7 +100,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: true
     },
-    "fmh1b": {
+    "fmh199D": {
         lat: 40.741895,
         lon: -74.179095,
         name: "Faculty Memorial Hall, First Floor, Back",
@@ -112,7 +112,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: true
     },
-    "fmh2a": {
+    "fmh299A": {
         lat: 40.742047,
         lon: -74.179019,
         name: "Faculty Memorial Hall, Second Floor",
@@ -124,7 +124,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "fmh3a": {
+    "fmh399A": {
         lat: 40.742047,
         lon: -74.179019,
         name: "Faculty Memorial Hall, Third Floor",
@@ -136,7 +136,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: true
     },
-    "fmh4a": {
+    "fmh499A": {
         lat: 40.742047,
         lon: -74.179019,
         name: "Faculty Memorial Hall, Fourth Floor",
@@ -150,10 +150,10 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "mhrh1a": {
+    "mhrh107": {
         lat: 40.741351,
         lon: -74.180131,
-        name: "Martinson Honors Residence Hall, First Floor",
+        name: "Martinson Honors Residence Hall, First Floor Lobby",
         description: `One bathroom, located in the first floor lobby of the Martinson Honors Residence Hall (MHRH). Unlike the other residence halls, the first floor honors dorm lobby is open to anyone on campus during the day, however at night you do still need to be a resident and tap your ID to get in.
         
         Once you enter the honors dorm from the entrance closest to Warren Street, head to the back of the lobby and make a left towards the student kitchen. Walk towards the kitchen and the bathroom should be on your left.`,
@@ -162,7 +162,19 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "tier1a": {
+    "mhrh136-137": {
+        lat: 40.741334,
+        lon: -74.179874,
+        name: "Martinson Honors Residence Hall, Village Market",
+        description: `Two bathrooms, located inside of Village Market on the first floor of the Martinson Honors Residence Hall (MHRH). These bathrooms are only accessible during <a href="https://dineoncampus.com/NJIT/dining-locations/village-market" target="_blank">Village Market's operating hours.</a>
+
+        Once you enter Village Market from the entrance closest to Warren Street, immediately make a left and the bathrooms should be straight ahead.`,
+        img: 2,
+        code: "MHRH 136, MHRH 137",
+        handicap: true,
+        menstrual: false
+    },
+    "tier199A": {
         lat: 40.741916,
         lon: -74.179641,
         name: "Tiernan Hall, First Floor",
@@ -174,7 +186,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: true
     },
-    "tier3a": {
+    "tier399B": {
         lat: 40.742255,
         lon: -74.179550,
         name: "Tiernan Hall, Third Floor",
@@ -186,7 +198,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: true
     },
-    "wec1a": {
+    "wec1B8.11": {
         lat: 40.742406,
         lon: -74.180270,
         name: "Wellness and Events Center, Family Locker Room (First Floor)",
@@ -195,14 +207,14 @@ window.bathrooms = {
         This bathroom isn't labeled "All Gender Single User Restroom" like the others, but this is a multifunctional and non-gendered family locker room with a single bathroom stall.
         
         Once you enter the WEC from the entrance closest to Tiernan Hall, head straight past the fencing room towards the elevator, and turn left at the wall with the television.
-        <img src="img/wec1ainst1.jpg" alt="Entrance to the locker room area on the first floor of the Wellness and Events Center.">
+        <img src="img/wec1B8.11inst1.jpg" alt="Entrance to the locker room area on the first floor of the Wellness and Events Center.">
         You may need to tap your ID to get through the doors, but once you do, head straight towards the arena entrance and the family locker room should be on your left.`,
         img: 1,
         code: "WEC 1B8.11",
         handicap: true,
         menstrual: false
     },
-    "wec2a": {
+    "wec2A7.01": {
         lat: 40.742128,
         lon: -74.180577,
         name: "Wellness and Events Center, Indoor Track (Second Floor)",
@@ -216,7 +228,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "cyp1a": {
+    "cyp113": {
         lat: 40.743562,
         lon: -74.179114,
         name: "Cypress Residence Hall, First Floor",
@@ -230,7 +242,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "cyp2a": {
+    "cyp224": {
         lat: 40.743394,
         lon: -74.179291,
         name: "Cypress Residence Hall, Second Floor",
@@ -242,7 +254,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "cyp3a": {
+    "cyp324": {
         lat: 40.743394,
         lon: -74.179291,
         name: "Cypress Residence Hall, Third Floor",
@@ -254,7 +266,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "cyp4a": {
+    "cyp424": {
         lat: 40.743394,
         lon: -74.179291,
         name: "Cypress Residence Hall, Fourth Floor",
@@ -266,7 +278,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "cyp5a": {
+    "cyp524": {
         lat: 40.743394,
         lon: -74.179291,
         name: "Cypress Residence Hall, Fifth Floor",
@@ -278,7 +290,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "cyp6a": {
+    "cyp624": {
         lat: 40.743394,
         lon: -74.179291,
         name: "Cypress Residence Hall, Sixth Floor",
@@ -290,7 +302,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "cyp7a": {
+    "cyp724": {
         lat: 40.743394,
         lon: -74.179291,
         name: "Cypress Residence Hall, Seventh Floor",
@@ -302,7 +314,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false,
     },
-    "cyp8a": {
+    "cyp824": {
         lat: 40.743394,
         lon: -74.179291,
         name: "Cypress Residence Hall, Eighth Floor",
@@ -314,7 +326,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "gitc2a": {
+    "gitc2215-2216": {
         lat: 40.743994,
         lon: -74.179039,
         name: "Guttenberg Information Technologies Center, Makerspace II, Second Floor",
@@ -326,7 +338,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "red1a": {
+    "red199A-199B": {
         lat: 40.743540,
         lon: -74.179815,
         name: "Redwood Residence Hall, First Floor",
@@ -338,7 +350,7 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "mapl1a": {
+    "mapl115": {
         lat: 40.741575,
         lon: -74.182025,
         name: "Maple Hall Building, First Floor",
