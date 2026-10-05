@@ -51,15 +51,15 @@ window.bathrooms = {
         handicap: true,
         menstrual: false
     },
-    "colt438": {
+    "colt437-438": {
         lat: 40.741323,
         lon: -74.177561,
         name: "Colton Hall, Annex, Fourth Floor",
-        description: `One bathroom, located on the fourth floor of the Colton Hall (COLT) annex.
+        description: `Two bathrooms, located on the fourth floor of the Colton Hall (COLT) annex.
         
-        Once you enter Colton Hall from the entrance closest to the Specht building (where the bookstore is), take the stairs up to the fourth floor, and make a right. Head down the hallway (around the corners) until you reach the end, at which the bathroom should be on your right.`,
-        img: 1,
-        code: "COLT 438",
+        Once you enter Colton Hall from the entrance closest to the Specht building (where the bookstore is), take the stairs up to the fourth floor, and make a right. Head down the hallway (around the corners) until you reach the end, at which the bathrooms should be on your right.`,
+        img: 2,
+        code: "COLT 437, COLT 438",
         handicap: true,
         menstrual: false
     },
